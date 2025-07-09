@@ -1,0 +1,26 @@
+Package: MXB107
+Title: Unit Package for MXB107
+Version: 1.0.0.2022
+Authors@R: 
+    person(given = "Gentry",
+           family = "White",
+           role = c("aut", "cre"),
+           email = "gentry.white@qut.edu.au",
+           comment = c(ORCID = "https://orcid.org/0000-0002-1170-9299"))
+Description: This is a unit specific package for MXB107 containing relevant datasets and loading required packages.
+License: MIT
+Imports: tidyverse, knitr, rmarkdown, pander, ggforce, kableExtra,
+        gridExtra
+Depends: R (>= 3.5.0), tidyverse, knitr, rmarkdown, pander, ggforce,
+        kableExtra, gridExtra
+Suggests: learnr, ggtext
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2022-07-20 01:37:09 UTC; gentrywhite
+Author: Gentry White [aut, cre] (<https://orcid.org/0000-0002-1170-9299>)
+Maintainer: Gentry White <gentry.white@qut.edu.au>
+Built: R 4.2.1; ; 2022-07-20 01:46:50 UTC; windows
